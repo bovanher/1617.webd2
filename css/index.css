@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+/*SPLASHPAGE*/
+
+.splashpage {
+    font-style: verdana;
+    color: white;
+    background-image: url("../assets/images/wallpaper14.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding-top: 130px;
+}
+
+.text_splashpage {
+    font-family: 'Lato';
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .7);
+    outline: 1px solid #fff;
+    outline-offset: 8px;
+    width: 600px;
+    height: 450px;
+    color: white;
+    text-align: center;
+}
+
+#titel_splashpage {
+    font-size: 55px;
+    font-family: 'Lato';
+}
+
+.menubutton {
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    background-color: transparent;
+    border: 1px solid #c9bfba;
+    font-size: 10pt;
+    font-family: 'Lato';
+}
+
+.menubutton:hover {
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    background-color: #c9bfba;
+    border: 1px solid #c9bfba;
+    font-size: 10pt;
+}
+
+.socialmedia_links_splashpage {
+    padding-top: 15px;
+}
+
+#txt {
+    color: black;
+    font-family: 'Lato';
+    font-size: 25px;
+}

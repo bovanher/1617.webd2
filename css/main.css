@@ -1,28 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
+
+/*WEBSITE RESPONSIVE MAKEN: */
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    .col-3 {
+        width: 25%;
+    }
+    .col-4 {
+        width: 33.33%;
+    }
+    .col-5 {
+        width: 41.66%;
+    }
+    .col-6 {
+        width: 50%;
+    }
+    .col-7 {
+        width: 58.33%;
+    }
+    .col-8 {
+        width: 66.66%;
+    }
+    .col-9 {
+        width: 75%;
+    }
+    .col-10 {
+        width: 83.33%;
+    }
+    .col-11 {
+        width: 91.66%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
+
+img {
+    /*resizing images automaticly*/
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*ALGEMEEN*/
+
+html,
+body {
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home2.jpeg') no-repeat center center fixed;
-  background-size: cover;
-
-  color: rgba(232,234,246 ,1);
+    font-family: 'Lato';
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
 }
 
-.intro {
-  width: 90vw;
+.hoofdtitel {
+    font-family: 'Lato';
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
 
-  padding: 1rem;
-  margin-top: 1rem;
+.tussentitel {
+    font-family: 'Lato';
+    font-size: 15px;
+    line-height: 42px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
 
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+.fullpage {
+    margin: auto;
+    text-align: center;
+}
+
+
+/*header*/
+
+header {
+    display: block;
+    text-align: right;
+    background: white;
+    background-size: cover;
+}
+
+.homepagelink {
+    padding-bottom: 10px;
+}
+
+#logo_navigatiebalk {
+    display: block;
+    float: left;
+    text-decoration: bold;
+    font-size: 26px;
+}
+
+.header_link {
+    color: black;
+    text-decoration: none;
+}
+
+.header_link:hover {
+    color: #D8A796;
+    text-decoration: bold;
+}
+
+ul {
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    padding: 0px 25px 0px 25px;
+}
+
+
+/*achtergrondafbeelding*/
+
+#homepage_image {
+    max-width: 100%;
+}
+
+.afbeelding_over_tekst {
+    color: black;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, .8);
+    outline: 1px solid #fff;
+    outline-offset: 8px;
+    font-size: 20px;
+    padding: 12px 24px;
+    position: absolute;
+    left: 450px;
+    bottom: 0px;
+    text-align: center;
+}
+
+
+/*CONTACT*/
+
+#googlemap {
+    width: 100%;
+    height: 700px;
+    background-color: grey;
+}
+
+
+/*spnsors
+.partners {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sponsorafbeeldingen {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.partner_details {
+    display: flex;
+    height: 120px;
+    width: 22%;
+    border: 1px solid lightgrey;
+    float: left;
+    margin: 13px;
+    justify-content: center;
+}
+
+.afb_sponsor {
+    padding: 20px;
+}
+*/
+
+
+/*footer*/
+
+.footer {
+    margin-top: 80px;
+    background-color: #eae5e2;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.aftiteling_website {
+    font-size: 12px;
+}
+
+.socialmedia_button {
+    height: 30px;
+    width: 30px;
+    margin-left: 15px;
+}
+
+.socialmedia_button:hover {
+    opacity: 0.60;
+}
+
+
+/*team columns*/
+
+
 }

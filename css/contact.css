@@ -1,0 +1,56 @@
+.homepage_image {
+    background-image: url("../assets/images/contact.jpeg");
+    /* Specific height */
+    min-height: 700px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kaart {
+    padding-top: 40px;
+}
+
+.hoofdtitel {
+    padding-top: 50px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: lightgray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    color: #eae5e2;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #eae5e2;
+    padding: 20px;
+}
+
+.invultekst {
+    font-family: 'Lato';
+    font-size: 14px;
+}

@@ -1,0 +1,29 @@
+.homepage_image {
+    background-image: url("../assets/images/afb_desk.jpg");
+    /* Specific height */
+    min-height: 700px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hoofdtitel {
+    padding-top: 50px;
+}
+
+.hoogte_foto {
+    height: 100%;
+    padding: 30px;
+}
+
+.image_border {
+    border: 1px solid #eae5e2;
+}
+
+p,
+h3 {
+    padding-left: 40px;
+    padding-right: 40px;
+}

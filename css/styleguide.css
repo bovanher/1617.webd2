@@ -1,28 +1,197 @@
-* {
-  box-sizing: border-box;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home2.jpeg') no-repeat center center fixed;
-  background-size: cover;
-
-  color: rgba(232,234,246 ,1);
-}
-
-.intro {
-  width: 90vw;
-
-  padding: 1rem;
-  margin-top: 1rem;
-
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
-}
+        @import url('https://fonts.googleapis.com/css?family=Lato:300');
+        * {
+            box-sizing: border-box;
+        }
+        
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            width: 100vw;
+            height: 100vh;
+            font-family: 'Lato';
+        }
+        
+        .homepage_image {
+            background-image: url("../assets/images/wallpaper14.jpg");
+            /* Specific height */
+            min-height: 700px;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .kader_tekst {
+            border: 2px solid #eae5e2;
+            padding: 20px;
+        }
+        
+        .footer_tekst {
+            font-size: 12px;
+        }
+        
+        .padding_rijen {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        .menubutton {
+            color: black;
+            text-decoration: none;
+            width: 150px;
+            height: 40px;
+            margin: 0 auto;
+            padding: 10px;
+            display: block;
+            background-color: transparent;
+            border: 1px solid #c9bfba;
+            font-size: 10pt;
+            font-family: 'Lato';
+        }
+        
+        .menubutton:hover {
+            color: white;
+            text-decoration: none;
+            width: 150px;
+            height: 40px;
+            margin: 0 auto;
+            padding: 10px;
+            display: block;
+            background-color: #c9bfba;
+            border: 1px solid #c9bfba;
+            font-size: 10pt;
+        }
+        
+        .menubutton_homepage {
+            color: #c9bfba;
+            text-decoration: none;
+            width: 150px;
+            height: 40px;
+            margin: 0 auto;
+            padding: 10px;
+            display: block;
+            background-color: transparent;
+            border: 1px solid #c9bfba;
+            font-size: 12pt;
+            font-family: 'Lato';
+        }
+        
+        .menubutton_homepage:hover {
+            color: white;
+            text-decoration: none;
+            width: 150px;
+            height: 40px;
+            margin: 0 auto;
+            padding: 10px;
+            display: block;
+            background-color: #c9bfba;
+            border: 1px solid #c9bfba;
+            font-size: 12pt;
+        }
+        
+        input[type=submit] {
+            background-color: lightgray;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+            background-color: black;
+            color: #eae5e2;
+        }
+        
+        p {
+            text-align: center;
+        }
+        
+        .cirkel {
+            width: 120px;
+            height: 120px;
+            border-radius: 60px;
+            margin: 0 auto;
+        }
+        
+        .cirkel_1 {
+            background-color: #c9bfba;
+        }
+        
+        .cirkel_2 {
+            background-color: black;
+        }
+        
+        .cirkel_3 {
+            background-color: #ccc;
+        }
+        
+        .cirkel_4 {
+            background-color: #D8A796;
+        }
+        
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        
+        input[type=submit] {
+            background-color: lightgray;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+            background-color: black;
+            color: #eae5e2;
+        }
+        
+        .container {
+            border-radius: 5px;
+            background-color: #eae5e2;
+            padding: 20px;
+        }
+        
+        .footer {
+            margin-top: 80px;
+            background-color: #eae5e2;
+            color: white;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        
+        .aftiteling_website {
+            font-size: 12px;
+        }
+        
+        .socialmedia_button {
+            height: 30px;
+            width: 30px;
+            margin-left: 15px;
+        }
+        
+        .socialmedia_button:hover {
+            opacity: 0.60;
+        }
+        
+        .beeldmateriaal {
+            height: 180px;
+            margin-bottom: 60px;
+        }

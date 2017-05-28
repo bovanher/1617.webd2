@@ -1,0 +1,120 @@
+.homepage_image {
+    background-image: url("../assets/images/wallpaper14.jpg");
+    /* Specific height */
+    min-height: 700px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    text-align: center;
+}
+
+.hoofdtitel {
+    padding-top: 50px;
+}
+
+.padding_bottom {
+    padding-bottom: 50px;
+}
+
+
+/*
+.menubutton_services {
+    color: black;
+    text-decoration: none;
+    width: 300px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #c9bfba;
+    font-size: 10pt;
+    font-family: 'Lato';
+}
+
+.menubutton_services:hover {
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    background-color: #c9bfba;
+    border: 1px solid #c9bfba;
+    font-size: 10pt;
+}
+*/
+
+.teams_homepage {
+    border-radius: 450px;
+}
+
+.teams_homepage:hover {
+    opacity: 0.5;
+}
+
+.afbeeldingen_team {
+    padding-bottom: 50px;
+}
+
+.inleidingstekst {
+    padding-bottom: 40px;
+}
+
+.inschrijven_nieuwsbrief {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.homepagefooter {
+    padding-top: 40px;
+}
+
+.email {
+    font-family: 'Lato';
+}
+
+.invullen_email {
+    font-family: 'Lato';
+    font-size: 13px;
+    height: 30px;
+}
+
+.verzendknop {
+    font-family: 'Lato';
+    font-size: 16px;
+    height: 30px;
+}
+
+.menubutton {
+    color: #c9bfba;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    background-color: transparent;
+    border: 1px solid #c9bfba;
+    font-size: 12pt;
+    font-family: 'Lato';
+}
+
+.menubutton:hover {
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    background-color: #c9bfba;
+    border: 1px solid #c9bfba;
+    font-size: 12pt;
+}
+
+p {
+    padding-left: 150px;
+    padding-right: 150px;
+}
